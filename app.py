@@ -132,11 +132,13 @@ class FormulaInjectorApp(ctk.CTk):
         }
 
     def _switch_page(self, key: str):
+        self._current_page = key
         for k, page in self._pages.items():
             if k == key:
                 page.grid(row=0, column=0, sticky="nsew")
+                page.tkraise()
             else:
-                page.grid_remove()
+                page.grid_forget()
         self._set_active_nav(key)
 
     # ═══════════════════════════════════════════════════════════════════════════
@@ -367,11 +369,12 @@ class FormulaInjectorApp(ctk.CTk):
         self._dark_mode = not self._dark_mode
         ctk.set_appearance_mode("dark" if self._dark_mode else "light")
 
+
     def _on_scale_change(self, value: float):
         self._scale_label.configure(text=f"{int(round(value * 100))} %")
         ctk.set_widget_scaling(value)
         ctk.set_window_scaling(value)
-
+        self._switch_page(self._current_page)
     # ═══════════════════════════════════════════════════════════════════════════
     #  HELP
     # ═══════════════════════════════════════════════════════════════════════════
