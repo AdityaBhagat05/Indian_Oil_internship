@@ -543,8 +543,13 @@
   ('json.encoder', 'C:\\Python314\\Lib\\json\\encoder.py', 'PYMODULE'),
   ('json.scanner', 'C:\\Python314\\Lib\\json\\scanner.py', 'PYMODULE'),
   ('logging', 'C:\\Python314\\Lib\\logging\\__init__.py', 'PYMODULE'),
-  ('lookup',
-   'C:\\Users\\Aditya Bhagat\\Desktop\\AI\\Indian_Oil_internship\\lookup.py',
+  ('lookup_daily',
+   'C:\\Users\\Aditya '
+   'Bhagat\\Desktop\\AI\\Indian_Oil_internship\\lookup_daily.py',
+   'PYMODULE'),
+  ('lookup_monthly',
+   'C:\\Users\\Aditya '
+   'Bhagat\\Desktop\\AI\\Indian_Oil_internship\\lookup_monthly.py',
    'PYMODULE'),
   ('lzma', 'C:\\Python314\\Lib\\lzma.py', 'PYMODULE'),
   ('mimetypes', 'C:\\Python314\\Lib\\mimetypes.py', 'PYMODULE'),
