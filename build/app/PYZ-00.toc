@@ -3223,6 +3223,10 @@
   ('unittest.signals', 'C:\\Python314\\Lib\\unittest\\signals.py', 'PYMODULE'),
   ('unittest.suite', 'C:\\Python314\\Lib\\unittest\\suite.py', 'PYMODULE'),
   ('unittest.util', 'C:\\Python314\\Lib\\unittest\\util.py', 'PYMODULE'),
+  ('unstructured_lookup',
+   'C:\\Users\\Aditya '
+   'Bhagat\\Desktop\\AI\\Indian_Oil_internship\\unstructured_lookup.py',
+   'PYMODULE'),
   ('urllib', 'C:\\Python314\\Lib\\urllib\\__init__.py', 'PYMODULE'),
   ('urllib.error', 'C:\\Python314\\Lib\\urllib\\error.py', 'PYMODULE'),
   ('urllib.parse', 'C:\\Python314\\Lib\\urllib\\parse.py', 'PYMODULE'),
